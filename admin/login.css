@@ -1,0 +1,64 @@
+html {
+  height: 100vh;
+}
+body {
+  background: #141a32;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+}
+.error {
+  border-color: red;
+}
+.error::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1; /* Firefox */
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+@media screen and (max-width:545px) {
+  body {
+    height: 75vh;
+  }
+}
+.btn-primary {
+  width: 100%
+}
+form {
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+}
+#Password {
+  border: 1px solid #000 !important;
+}
+.btn-rsvp {
+  font-family: Arial;
+  background: none;
+  border-radius: 0;
+  border: 1px solid #333;
+  color: #333;
+  text-transform: uppercase;
+}
+.btn-rsvp:hover {
+  background: #333;
+  color: #fff;
+  border-color: #333;
+}
+.ns-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ns-icon img{
+  height: 100px;
+  text-align: center;
+  padding-bottom: 15px;
+}
