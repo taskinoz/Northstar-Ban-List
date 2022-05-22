@@ -18,11 +18,13 @@
 </head>
 <body>
   <div class="container">
-    <div class="row">
+    <div class="row p-2">
       <div class="col-md-12">
         <h1>Dashboard</h1>
       </div>
-      <div class="col-md-12">
+    </div>
+    <div class="row p-2">
+      <div class="col-sm-12 order-sm-1 col-md-6 order-2">
         <form action="./update.php" method="post">
           <div class="form-group">
             <label for="uid">Enter UID</label>
@@ -31,6 +33,25 @@
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+      </div>
+      <div class="col-sm-12 order-sm-2 col-md-6 order-1">
+        <p>Banned Users</p>
+        <?php
+          $dirctory = './';
+          $fileName = 'banlist.txt';
+          if (file_exists($dirctory.$fileName)) {
+            $bannedUsers = explode("\n", file_get_contents($dirctory.$fileName));
+            echo "<ul>";
+            foreach ($bannedUsers as $user) {
+              echo "<li>$user</li>";
+            }
+            echo "</ul>";
+          }
+          else {
+            echo "No banned users";
+          }
+          
+        ?>
       </div>
     </div>
   </div>
