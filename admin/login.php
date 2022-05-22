@@ -20,7 +20,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <form method="POST" action="./admin/index.php" target="updated-list">
+        <form method="POST" action="./index.php" target="updated-list">
           <div class="form-group">
               <div class="ns-icon">
                 <img src="./admin/img/logo_1k.png" alt="">
