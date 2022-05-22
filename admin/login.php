@@ -20,7 +20,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <form method="POST" action="./" target="updated-list">
+        <form method="POST" action="./">
           <div class="form-group">
               <div class="ns-icon">
                 <img src="./img/logo_1k.png" alt="">
@@ -33,7 +33,6 @@
           </div>
           <button type="submit" class="btn btn-primary btn-nstr">Submit</button>
         </form>
-        <iframe id="update-list" style="display:none"></iframe>
       </div>
     </div>
   </div>
