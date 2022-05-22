@@ -18,6 +18,11 @@ if (isset($_POST['p']) && isset($_POST['uid'])){
         fwrite($fp, $_POST['uid']);
         fclose($fp);
     }
+
+    // Go back to Dashboard
+    header("Location: /admin/");
+    exit();
+
   }
 }
 
