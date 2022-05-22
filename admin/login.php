@@ -31,7 +31,7 @@
               <input type="password" class="form-control" id="Password" name="pass" placeholder="Password">
             <?php } ?>
           </div>
-          <button type="submit" class="btn btn-primary btn-rsvp">Submit</button>
+          <button type="submit" class="btn btn-primary btn-nstr">Submit</button>
         </form>
         <iframe id="update-list" style="display:none"></iframe>
       </div>

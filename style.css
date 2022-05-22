@@ -4,14 +4,49 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Arial;
 }
-
-.btn-login {
+body {
+    background: url(admin/img/titanfall_screenshot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container h1 {
+    color: #fff;
+}
+.container {
+    padding: 40px;
+    background: rgba( 0,0,0, 0.7);
+    border-radius: 20px;
+}
+.login {
     width: 100%;
     margin: 0 10px;
 }
-.btn-api,
-.btn-download {
+.api,
+.download {
     width: 50%;
     margin: 0 10px;
+}
+.ns-icon img{
+    height: 100px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.ns-icon {
+    display: flex;
+    justify-content: center;
+}
+.buttons .btn-nstr {
+  background: none;
+  border-radius: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+}
+.buttons .btn-nstr:hover,
+.buttons .btn-nstr:active {
+  background: #fff !important;
+  color: #333 !important;
+  border-color: #fff !important;
 }

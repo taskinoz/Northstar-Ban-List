@@ -39,7 +39,7 @@ form {
 #Password {
   border: 1px solid #000 !important;
 }
-.btn-rsvp {
+.btn-nstr {
   font-family: Arial;
   background: none;
   border-radius: 0;
@@ -47,7 +47,7 @@ form {
   color: #333;
   text-transform: uppercase;
 }
-.btn-rsvp:hover {
+.btn-nstr:hover {
   background: #333;
   color: #fff;
   border-color: #333;

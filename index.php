@@ -24,16 +24,19 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 p-3">
+        <div class="ns-icon">
+          <img src="./admin/img/logo_1k.png" alt="Northstar Icon">
+        </div>
         <h1>Northstar Ban List</h1>
       </div>
     </div>
-    <div class="row">
+    <div class="row buttons">
       <div class="col-md-12 d-flex flex-row p-1">
-        <a class="btn btn-primary btn-api" href="./api/">API</a>
-        <a class="btn btn-primary btn-download" href="./api/" download="banlist.txt">Download List</a>
+        <a class="btn btn-primary btn-nstr api" href="./api/">API</a>
+        <a class="btn btn-primary btn-nstr download" href="./api/" download="banlist.txt">Download List</a>
       </div>
       <div class="col-md-12 d-flex flex-row p-1">
-        <a class="btn btn-primary btn-login" href="./admin/">Login</a>
+        <a class="btn btn-primary btn-nstr login" href="./admin/">Login</a>
       </div>
     </div>
   </div>
