@@ -1,3 +1,6 @@
+<?php
+$websiteURL = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,10 +9,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Northstar Ban List</title>
   <!-- META -->
-  <meta property="og:title" content="Lies the Northstar Ban List">
+  <meta property="og:title" content="Control pannel for Northstar Ban Lists">
   <meta property="og:site_name" content="Northstar Ban List">
-  <meta property="og:url" content="https://taskinoz.com/northstar/ban-list">
-  <meta property="og:description" content="Lies the Northstar Ban List">
+  <meta property="og:url" content="<?php echo $websiteURL; ?>">
+  <meta property="og:description" content="Control pannel for Northstar Ban Lists">
   <meta property="og:type" content="website">
   <meta property="og:image" content="">
 
