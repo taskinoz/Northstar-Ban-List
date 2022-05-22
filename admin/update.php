@@ -20,7 +20,7 @@ if (isset($_POST['p']) && isset($_POST['uid'])){
     }
 
     // Go back to Dashboard
-    header("Location: /admin/");
+    header("Location: ../admin/");
     exit();
 
   }
