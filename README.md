@@ -13,3 +13,4 @@ This is a very simple management platform that saves all UID's as a text file so
    - index.php
    - style.css
    - /admin/
+   - /api/
