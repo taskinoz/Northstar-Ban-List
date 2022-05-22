@@ -9,7 +9,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Dashboard</title>
 
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -20,7 +20,10 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <form action="./admin/update.php" method="post">
+        <h1>Dashboard</h1>
+      </div>
+      <div class="col-md-12">
+        <form action="./update.php" method="post">
           <div class="form-group">
             <label for="uid">Enter UID</label>
             <input type="text" class="form-control" id="uid" placeholder="1000000000" name="uid">
